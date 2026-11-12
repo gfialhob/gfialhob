@@ -14,10 +14,10 @@
 
 ## ./alvo
 
-**Vagas:** Desenvolvedor Full Stack Júnior, Analista de Suporte Júnior, Analista de Infraestrutura Júnior e Assistente de Desenvolvimento de Sistemas.
-**Modelo:** remoto ou híbrido.
-**Estudando agora:** Análise e Desenvolvimento de Sistemas (Impacta), Full Stack (DevClub) e a trilha AWS Developer, com foco em Linux, Java, JavaScript e Python.
-**Certificação:** AWS Certified Cloud Practitioner, depois do AWS re/Start (Escola da Nuvem).
+- **Vagas:** Desenvolvedor Full Stack Júnior, Analista de Suporte Júnior, Analista de Infraestrutura Júnior e Assistente de Desenvolvimento de Sistemas.
+- **Modelo:** remoto ou híbrido.
+- **Estudando agora:** Análise e Desenvolvimento de Sistemas (Impacta), Full Stack (DevClub) e a trilha AWS Developer, com foco em Linux, Java, JavaScript e Python.
+- **Certificação:** AWS Certified Cloud Practitioner, depois do AWS re/Start (Escola da Nuvem).
 
 ## ./stack
 
