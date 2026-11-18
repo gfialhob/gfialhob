@@ -1,0 +1,70 @@
+<svg width="900" height="335" viewBox="0 0 900 335" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .font-title { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 14px; fill: #e6edf3; }
+      .font-code { font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; font-size: 14px; }
+      .prompt { fill: #00995d; font-weight: 700; }
+      .cmd { fill: #e6edf3; }
+      .highlight { fill: #ffffff; font-weight: 700; }
+      .text { fill: #dddddd; }
+      .subtext { fill: #a1a1a1; }
+    </style>
+    <clipPath id="window-clip">
+      <rect x="2" y="2" width="896" height="331" rx="10" ry="10" />
+    </clipPath>
+  </defs>
+
+  <rect x="2" y="2" width="896" height="331" rx="10" ry="10" fill="#0A0A0A" />
+
+  <g clip-path="url(#window-clip)">
+    <!-- Barra de título -->
+    <rect x="2" y="2" width="896" height="36" fill="#111111" />
+    
+    <!-- Título à esquerda -->
+    <text x="22" y="24" text-anchor="start" class="font-title">gfialhob@github: ~</text>
+
+    <!-- Botões da janela à direita -->
+    <circle cx="830" cy="19" r="6" fill="#8b949e" />
+    <circle cx="850" cy="19" r="6" fill="#8b949e" />
+    <path d="M 868 15 L 876 23 M 876 15 L 868 23" stroke="#8b949e" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Conteúdo -->
+    <g class="font-code">
+      <text x="22" y="68">
+        <tspan class="prompt">gfialhob@github:~$</tspan>
+        <tspan class="cmd"> ./cacada --alvo bug</tspan>
+      </text>
+      <text x="22" y="92" class="subtext">bug avistado, caçada iniciada...</text>
+
+      <!-- Item 1 -->
+      <text x="22" y="128">
+        <tspan class="highlight">- Resolução metódica:</tspan>
+        <tspan class="text"> reproduzo o erro, leio a mensagem, testo uma hipótese</tspan>
+      </text>
+      <text x="39" y="148" class="text">por vez e, se empacar, peço ajuda levando o que já tentei.</text>
+
+      <!-- Item 2 -->
+      <text x="22" y="180">
+        <tspan class="highlight">- Iniciativa:</tspan>
+        <tspan class="text"> vejo um processo lento ou sem controle e crio a solução sem</tspan>
+      </text>
+      <text x="39" y="200" class="text">ninguém pedir.</text>
+
+      <!-- Item 3 -->
+      <text x="22" y="232">
+        <tspan class="highlight">- Aprendizado na prática:</tspan>
+        <tspan class="text"> estou aprendendo Arch Linux do zero, errando, tentando</tspan>
+      </text>
+      <text x="39" y="252" class="text">de novo e consultando a documentação.</text>
+
+      <!-- Item 4 -->
+      <text x="22" y="284">
+        <tspan class="highlight">- Time:</tspan>
+        <tspan class="text"> compartilho o que crio e sou quem os colegas procuram quando algo não</tspan>
+      </text>
+      <text x="39" y="304" class="text">funciona.</text>
+    </g>
+  </g>
+
+  <rect x="2" y="2" width="896" height="331" rx="10" ry="10" fill="none" stroke="#00995d" stroke-width="1" />
+</svg>

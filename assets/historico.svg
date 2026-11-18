@@ -1,0 +1,73 @@
+<svg width="900" height="360" viewBox="0 0 900 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .font-title { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 14px; fill: #e6edf3; }
+      .font-code { font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; font-size: 14px; }
+      .prompt { fill: #00995d; font-weight: 700; }
+      .cmd { fill: #e6edf3; }
+      .highlight { fill: #e6edf3; font-weight: 700; }
+      .text { fill: #c9d1d9; }
+    </style>
+    <clipPath id="window-clip">
+      <rect x="2" y="2" width="896" height="356" rx="10" ry="10" />
+    </clipPath>
+  </defs>
+
+  <!-- Fundo da janela -->
+  <rect x="2" y="2" width="896" height="356" rx="10" ry="10" fill="#0a0a0a" />
+
+  <g clip-path="url(#window-clip)">
+    <!-- Barra de titulo -->
+    <rect x="2" y="2" width="896" height="36" fill="#111111" />
+    
+    <!-- Titulo a esquerda -->
+    <text x="22" y="24" text-anchor="start" class="font-title">gfialhob@github: ~</text>
+
+    <!-- Botoes da janela a direita -->
+    <circle cx="830" cy="19" r="6" fill="#8b949e" />
+    <circle cx="850" cy="19" r="6" fill="#8b949e" />
+    <path d="M 868 15 L 876 23 M 876 15 L 868 23" stroke="#8b949e" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Conteudo do Terminal -->
+    <g class="font-code">
+      <!-- Comando -->
+      <text x="22" y="68">
+        <tspan class="prompt">gfialhob@github:~$</tspan>
+        <tspan class="cmd"> cat historico.log</tspan>
+      </text>
+
+      <!-- Item 1: Unimed Araruama -->
+      <text x="22" y="98">
+        <tspan class="highlight">- Unimed Araruama, Auxiliar Administrativo (desde 2022):</tspan>
+        <tspan class="text"> acompanho de 300 a 800</tspan>
+      </text>
+      <text x="39" y="118" class="text">solicitações de procedimentos por semana e dou suporte a médicos, clínicas e hospitais.</text>
+      <text x="39" y="138" class="text">Criei por conta própria uma planilha de controle de processos (status, data de solicitação</text>
+      <text x="39" y="158" class="text">e de finalização) e compartilhei com a equipe.</text>
+
+      <!-- Item 2: Script de impressoras -->
+      <text x="22" y="190">
+        <tspan class="highlight">- Script de impressoras:</tspan>
+        <tspan class="text"> automatizei a busca de impressoras na rede e a instalação de</tspan>
+      </text>
+      <text x="39" y="210" class="text">drivers em máquinas novas. O que levava vários minutos por computador passou a levar segundos.</text>
+
+      <!-- Item 3: Freelas -->
+      <text x="22" y="242">
+        <tspan class="highlight">- Freelas de manutenção:</tspan>
+        <tspan class="text"> lentidão do sistema, erros de software, otimização, instalação de</tspan>
+      </text>
+      <text x="39" y="262" class="text">programas e formatação.</text>
+
+      <!-- Item 4: Antes -->
+      <text x="22" y="294">
+        <tspan class="highlight">- Antes:</tspan>
+        <tspan class="text"> Prevenção de Perdas (Grupo Alvorada), com redução de 20% a 50% das perdas mensais,</tspan>
+      </text>
+      <text x="39" y="314" class="text">e Auxiliar Administrativo (Rio de Janeiro Refresco).</text>
+    </g>
+  </g>
+
+  <!-- Borda externa verde -->
+  <rect x="2" y="2" width="896" height="356" rx="10" ry="10" fill="none" stroke="#00995d" stroke-width="1" />
+</svg>

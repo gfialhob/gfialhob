@@ -1,0 +1,61 @@
+<svg width="900" height="440" viewBox="0 0 900 440" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .font-title { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 14px; fill: #e6edf3; }
+      .font-code { font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; font-size: 14px; }
+      .prompt { fill: #00995d; font-weight: 700; }
+      .cmd { fill: #e6edf3; }
+      .section { fill: #e6edf3; font-weight: 700; }
+      .text { fill: #c9d1d9; }
+    </style>
+    <clipPath id="window-clip">
+      <rect x="2" y="2" width="896" height="436" rx="10" ry="10" />
+    </clipPath>
+  </defs>
+
+  <rect x="2" y="2" width="896" height="436" rx="10" ry="10" fill="#0a0a0a" />
+
+  <g clip-path="url(#window-clip)">
+    <!-- Barra de título -->
+    <rect x="2" y="2" width="896" height="36" fill="#111111" />
+    
+    <!-- Título à esquerda -->
+    <text x="22" y="24" text-anchor="start" class="font-title">gfialhob@github: ~</text>
+
+    <!-- Botões da janela à direita -->
+    <circle cx="830" cy="19" r="6" fill="#8b949e" />
+    <circle cx="850" cy="19" r="6" fill="#8b949e" />
+    <path d="M 868 15 L 876 23 M 876 15 L 868 23" stroke="#8b949e" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Conteúdo do Terminal -->
+    <g class="font-code">
+      <text x="22" y="68">
+        <tspan class="prompt">gfialhob@github:~$</tspan>
+        <tspan class="cmd"> cat alvo.txt</tspan>
+      </text>
+
+      <!-- Seção [vagas] -->
+      <text x="22" y="94" class="section">[vagas]</text>
+      <text x="30" y="116" class="text">- Desenvolvedor Full Stack Júnior</text>
+      <text x="30" y="138" class="text">- Analista de Suporte Júnior</text>
+      <text x="30" y="160" class="text">- Analista de Infraestrutura Júnior</text>
+      <text x="30" y="182" class="text">- Assistente de Desenvolvimento de Sistemas</text>
+
+      <!-- Seção [modelo] -->
+      <text x="22" y="220" class="section">[modelo]</text>
+      <text x="30" y="242" class="text">remoto ou híbrido</text>
+
+      <!-- Seção [estudo] -->
+      <text x="22" y="280" class="section">[estudo]</text>
+      <text x="30" y="302" class="text">- Análise e Desenvolvimento de Sistemas (Impacta Tecnologia)</text>
+      <text x="30" y="324" class="text">- Full Stack (DevClub)</text>
+      <text x="30" y="346" class="text">- trilha AWS Developer</text>
+
+      <!-- Seção [foco] -->
+      <text x="22" y="384" class="section">[foco]</text>
+      <text x="30" y="406" class="text">Linux, Java, JavaScript, Python</text>
+    </g>
+  </g>
+
+  <rect x="2" y="2" width="896" height="436" rx="10" ry="10" fill="none" stroke="#00995d" stroke-width="1" />
+</svg>

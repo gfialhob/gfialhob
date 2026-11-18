@@ -1,0 +1,60 @@
+<svg width="900" height="275" viewBox="0 0 900 275" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .font-title { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 14px; fill: #e6edf3; }
+      .font-code { font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; font-size: 14px; }
+      .prompt { fill: #00995d; font-weight: 700; }
+      .cmd { fill: #e6edf3; }
+      .highlight { fill: #e6edf3; font-weight: 700; }
+      .text { fill: #c9d1d9; }
+    </style>
+    <clipPath id="window-clip">
+      <rect x="2" y="2" width="896" height="271" rx="10" ry="10" />
+    </clipPath>
+  </defs>
+
+  <!-- Fundo da janela -->
+  <rect x="2" y="2" width="896" height="271" rx="10" ry="10" fill="#0a0a0a" />
+
+  <g clip-path="url(#window-clip)">
+    <!-- Barra de titulo -->
+    <rect x="2" y="2" width="896" height="36" fill="#111111" />
+    
+    <!-- Titulo a esquerda -->
+    <text x="22" y="24" text-anchor="start" class="font-title">gfialhob@github: ~</text>
+
+    <!-- Botoes da janela a direita -->
+    <circle cx="830" cy="19" r="6" fill="#8b949e" />
+    <circle cx="850" cy="19" r="6" fill="#8b949e" />
+    <path d="M 868 15 L 876 23 M 876 15 L 868 23" stroke="#8b949e" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Conteudo do Terminal -->
+    <g class="font-code">
+      <!-- Comando -->
+      <text x="22" y="68">
+        <tspan class="prompt">gfialhob@github:~$</tspan>
+        <tspan class="cmd"> cat curiosidades.txt</tspan>
+      </text>
+
+      <!-- Item 1 -->
+      <text x="22" y="98" class="text">- Leio desenvolvimento pessoal e filosofia (Epicteto, Marco Aurélio, Sêneca e Salomão)</text>
+      <text x="39" y="118" class="text">e admiro sabedoria e liderança.</text>
+
+      <!-- Item 2 -->
+      <text x="22" y="148" class="text">- Valorant nos fins de semana, desde 2020.</text>
+
+      <!-- Item 3 -->
+      <text x="22" y="178">
+        <tspan class="highlight">- Série favorita:</tspan>
+        <tspan class="text"> Supernatural, pela parceria entre os irmãos, o clima sombrio,</tspan>
+      </text>
+      <text x="39" y="198" class="text">a estratégia e o humor.</text>
+
+      <!-- Item 4 -->
+      <text x="22" y="228" class="text">- Música clássica e instrumental, notícias relevantes e a retomada da atividade física.</text>
+    </g>
+  </g>
+
+  <!-- Borda externa verde -->
+  <rect x="2" y="2" width="896" height="271" rx="10" ry="10" fill="none" stroke="#00995d" stroke-width="1"/>
+</svg>
